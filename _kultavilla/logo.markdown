@@ -1,6 +1,6 @@
 ---
 title: Logo
 name: logo
-img_image: "/uploads/map-marker-black.png"
+img_image: "/uploads/logo-d0ef8f.png"
 ---
 
