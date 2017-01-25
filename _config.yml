@@ -5,6 +5,9 @@ collections:
   kultavilla:
     title: Kultavilla
     output: false
+  posts:
+    title: Posts
+    output: true
   references:
     title: References
     output: false
