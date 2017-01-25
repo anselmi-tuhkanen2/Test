@@ -1,0 +1,20 @@
+---
+baseurl:
+url:
+
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+collections:    
+  kultavilla:
+    output: false
+  references:
+    output: false
+    position: false
+  uploads:
+    output: true
+
+sass:
+  style: compressed
