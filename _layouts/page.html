@@ -32,7 +32,8 @@
             Lorem <i class="fa fa-bars"></i>
           </button>
           <a class="navbar-brand page-scroll" href="#page-top">
-            <span><img width="40" src="{{ site.baseurl }}/images/logo.png" alt="Lorem" /></span>
+            {% assign logo = site.kultavilla | where:"name", "logo"  | first %}
+            <span><img width="40" src="{{ site.baseurl }}/uploads/{{ logo.img_image }}" alt="Lorem" /></span>
             <span>Lorem</span>
           </a>
         </div>

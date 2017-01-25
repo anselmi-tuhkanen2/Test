@@ -7,7 +7,8 @@ layout: page
     <div class="container">
       <div class="row">
         <div class="col-md-8 col-md-offset-2">
-          <p class="intro-text">{{ site.data.kultavilla.header }}</p>
+          {% assign intro = site.kultavilla | where:"name", "intro"  | first %}
+          {{ intro }}
         </div>
       </div>
     </div>
@@ -83,17 +84,16 @@ layout: page
 
       <div class="col-lg-12">
         <div class="text-center">
-          {% assign tpl = site.kultavilla | where:"name", "workshop"  | first %}
-          {{ tpl }}
+          {% assign workshop = site.kultavilla | where:"name", "workshop"  | first %}
+          {{ workshop }}
         </div>
-        {% for image in site.static_files %}
-        {% if image.path contains 'images/workshop-' %}
+
+        {% for image in workshop.images %}
         <div class="col-lg-4 col-md-6 col-xs-12 thumb">
           <span class="thumbnail">
-            <img class="img-responsive" src="{{ site.baseurl }}/{{ image.path }}" alt="">
+            <img class="img-responsive" src="{{ site.baseurl }}/uploads/{{ image.img_image }}" alt="">
           </span>
         </div>
-        {% endif %}
         {% endfor %}
 
         <div class="col-lg-4 col-md-6 col-xs-12 thumb">

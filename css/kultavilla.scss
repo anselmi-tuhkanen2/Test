@@ -125,7 +125,8 @@ a:focus {
     padding-top: 75px;
     text-align: center;
     color: white;
-    background: url({{ site.baseurl }}/images/intro.jpg) no-repeat top center scroll;
+    {% assign intro = site.kultavilla | where:"name", "intro"  | first %}
+    background: url({{ site.baseurl }}/uploads/{{ intro.img_image}}) no-repeat top center scroll;
     background-color: #e0e9f3;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -139,12 +140,10 @@ a:focus {
         .brand-heading {
             font-size: 40px;
         }
-        .intro-text {
-            font-size: 36px;
-        }
     }
     p {
         text-shadow: 2px 2px #000000;
+        font-size: 36px;
     }
 }
 
