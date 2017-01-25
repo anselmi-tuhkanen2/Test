@@ -1,6 +1,6 @@
 ---
 title: Workshop
-position: 6
+position: 7
 name: workshop
 images:
 - img_image: "/uploads/workshop-01.jpg"

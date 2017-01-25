@@ -1,6 +1,6 @@
 ---
 title: Yhteystiedot
-position: 7
+position: 6
 name: contact
 ---
 
