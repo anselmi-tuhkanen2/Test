@@ -1,5 +1,6 @@
 ---
 title: Suunnittelu
+position: 4
 name: services-design
 ---
 

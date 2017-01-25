@@ -1,5 +1,6 @@
 ---
 title: Tuotekehitys
+position: 5
 name: services-product-development
 ---
 
