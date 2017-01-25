@@ -1,6 +1,6 @@
 ---
 title: Intro
-position: 2
+position: 1
 name: intro
 img_image: "/uploads/intro.jpg"
 ---
