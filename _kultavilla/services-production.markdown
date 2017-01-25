@@ -10,7 +10,7 @@ Phasellus et quam venenatis, ullamcorper libero vitae, varius erat. Nulla euismo
 * Phasellus et quam
 * Venenatis, ullamcorper
 
-* Foo bar
+* Foo bar2
 
 * Libero vitae, varius erat
 * Nulla euismod moll
