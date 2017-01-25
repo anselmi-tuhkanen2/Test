@@ -1,6 +1,6 @@
 ---
 title: Slogan
-position: 7
+position: 2
 name: slogan
 ---
 

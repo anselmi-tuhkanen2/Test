@@ -1,6 +1,6 @@
 ---
 title: Referenssit
-position: 2
+position: 3
 references:
 - title: Lorem ipsum 2
   description_text: Amet2 est ut vulputate
