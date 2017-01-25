@@ -1,6 +1,6 @@
 ---
 title: Palvelut:tuotanto
-position: 8
+position: 5
 name: services-production
 ---
 
