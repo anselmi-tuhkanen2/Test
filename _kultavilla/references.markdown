@@ -1,5 +1,5 @@
 ---
-title: References
+title: Referenssit
 references:
 - title: Lorem ipsum 2
   description_text: Amet2 est ut vulputate
