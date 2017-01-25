@@ -1,7 +1,7 @@
 ---
 title: Ref1
 position: 3
-img_image: ref1.jpg
+img_image: /uploads/ref1.jpg
 ---
 
 #### Nulla euismod mollis

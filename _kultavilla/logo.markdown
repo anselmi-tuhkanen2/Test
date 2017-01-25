@@ -1,6 +1,5 @@
 ---
 title: Logo
 name: logo
-img_image: logo.png
+img_image: /uploads/logo.png
 ---
-

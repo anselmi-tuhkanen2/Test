@@ -126,7 +126,7 @@ a:focus {
     text-align: center;
     color: white;
     {% assign intro = site.kultavilla | where:"name", "intro"  | first %}
-    background: url({{ site.baseurl }}/uploads/{{ intro.img_image}}) no-repeat top center scroll;
+    background: url({{ site.baseurl }}/{{ intro.img_image}}) no-repeat top center scroll;
     background-color: #e0e9f3;
     -webkit-background-size: cover;
     -moz-background-size: cover;

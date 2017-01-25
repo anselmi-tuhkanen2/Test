@@ -57,7 +57,7 @@ layout: page
       
       {% for ref in refs %}
       <div class="col-lg-4 col-sm-6 portfolio-box">
-        <img src="{{ site.baseurl }}/uploads/{{ ref.img_image }}" class="img-responsive" alt="">
+        <img src="{{ site.baseurl }}/{{ ref.img_image }}" class="img-responsive" alt="">
         <div class="portfolio-box-caption">
           <div class="portfolio-box-caption-content">
             {{ ref.content }}
@@ -91,7 +91,7 @@ layout: page
         {% for image in workshop.images %}
         <div class="col-lg-4 col-md-6 col-xs-12 thumb">
           <span class="thumbnail">
-            <img class="img-responsive" src="{{ site.baseurl }}/uploads/{{ image.img_image }}" alt="">
+            <img class="img-responsive" src="{{ site.baseurl }}/{{ image.img_image }}" alt="">
           </span>
         </div>
         {% endfor %}
