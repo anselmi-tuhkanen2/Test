@@ -50,17 +50,16 @@ layout: page
 <section id="references" class="container content-section">
   <div class="references-section">
     <div class="container">
-      {% assign tpl = site.kultavilla | where:"name", "references"  | first %}
-      {{ tpl }}
+      {% assign references = site.kultavilla | where:"name", "references"  | first %}
+      {{ references }}
 
-      {% assign refs = (site.references | sort: "position") %}
-      
-      {% for ref in refs %}
+      {% for ref in references.references %}
       <div class="col-lg-4 col-sm-6 portfolio-box">
         <img src="{{ site.baseurl }}/{{ ref.img_image }}" class="img-responsive" alt="">
         <div class="portfolio-box-caption">
           <div class="portfolio-box-caption-content">
-            {{ ref.content }}
+            <h5>{{ ref.title }}</h5>
+            {{ ref.description_text | markdownify }}
           </div>
         </div>
       </div>
