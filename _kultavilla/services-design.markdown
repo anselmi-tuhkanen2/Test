@@ -1,6 +1,6 @@
 ---
 title: Palvelut:suunnittelu
-position: 5
+position: 4
 name: services-design
 ---
 
