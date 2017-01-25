@@ -124,7 +124,7 @@ a:focus {
     padding-top: 75px;
     text-align: center;
     color: white;
-    background: url(/images/intro.jpg) no-repeat top center scroll;
+    background: url({{ site.baseurl }}/images/intro.jpg) no-repeat top center scroll;
     background-color: #e0e9f3;
     -webkit-background-size: cover;
     -moz-background-size: cover;
