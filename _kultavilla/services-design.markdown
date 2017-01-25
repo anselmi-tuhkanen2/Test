@@ -1,5 +1,5 @@
 ---
-title: Services Design
+title: Suunnittelu
 name: services-design
 ---
 
