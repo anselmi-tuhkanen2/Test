@@ -1,6 +1,8 @@
 ---
+title: Services Design
 name: services-design
 ---
+
 ### Sit amet
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.

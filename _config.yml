@@ -1,20 +1,25 @@
 ---
-baseurl: /Test
-url:
-
-markdown: kramdown
-exclude:
-  - Gemfile
-  - Gemfile.lock
-
-collections:    
+title: Test
+timezone: UTC
+collections:
   kultavilla:
+    title: Kultavilla
     output: false
+  posts:
+    title: Posts
+    output: true
   references:
+    title: References
     output: false
     position: false
   uploads:
+    title: Uploads
     output: true
-
+baseurl: "/Test"
+url: 
+markdown: kramdown
+exclude:
+- Gemfile
+- Gemfile.lock
 sass:
   style: compressed
