@@ -38,3 +38,5 @@ exclude:
 - Gemfile.lock
 sass:
   style: compressed
+gems:
+  - jekyll-seo-tag
