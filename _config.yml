@@ -31,4 +31,4 @@ exclude:
 sass:
   style: compressed
 gems:
-  - jekyll-seo-tag
+- jekyll-seo-tag
