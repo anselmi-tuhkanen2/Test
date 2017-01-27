@@ -5,4 +5,4 @@ img_image: "/uploads/intro.jpg"
 name: intro
 ---
 
-Vivamus3 iaculis sit amet est ut vulputate.
+Lorem ipsum
