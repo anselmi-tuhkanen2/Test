@@ -24,5 +24,6 @@ foo_text:
   Aliquam sed turpis velit. Donec et lacus orci. Aenean finibus orci in elementum
   pharetra. Proin id nisi a felis tempor sollicitudin. Vivamus finibus varius sem
   sit amet mollis.\n\n"
+- "**lorem**"
 ---
 
